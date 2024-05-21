@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 30px; /* Chỉnh kích thước font chữ */
+            font-family: 'Times New Roman', Times, serif, sans-serif; /* Chọn font chữ */
+            background-color: #f3f3f3; /* Màu nền */
+        }
+
+        .container {
+            background-color: #fff; /* Màu nền của khung chứa thông tin */
+            padding: 20px; /* Khoảng cách giữa nội dung và khung */
+            border-radius: 10px; /* Bo góc */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .info {
+            text-align: left;
+        }
+
+        .info h1 {
+            font-size: 60px; /* Kích thước font cho tiêu đề */
+            color: rgb(118, 221, 0);
+        }
+
+        .info p {
+            margin: 10px 0;
+        }
+
+        .avatar {
+            width: 200px; /* Kích thước khung hình ảnh */
+            height: 200px;
+            border-radius: 50%; /* Làm tròn khung hình */
+            overflow: hidden; /* Ẩn phần ngoài của hình */
+        }
+
+        .avatar img {
+            width: 100%; /* Kích thước hình ảnh */
+            height: 100%;
+            object-fit: cover; /* Giữ tỉ lệ của hình ảnh */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <h1>Thông tin cá nhân</h1>
+            <p><strong>Tên:</strong> LA PHẠM SƠN (DAVID FREMONT)</p>
+            <p><strong>Tuổi:</strong> 16</p>
+            <p><strong>Sinh năm:</strong> 2008</p>
+            <p><strong>Nơi ở:</strong> Phú Tân, Bình Dương</p>
+            <p><strong>Số điện thoại:</strong> 0867452328</p>
+            <p><strong>Email:</strong> sonphamla167@gmail.com</p>
+            <p><strong>Profile Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100039893961827">facebook.com</a></p>
+            <p><strong>Profile YouTube:</strong> <a href="https://www.youtube.com/@laphamson">youtube.com</a></p>
+            <p><strong>Profile Tiktok:</strong> <a href="https://www.tiktok.com/@sonphamla167">youtube.com</a></p>
+            <p><strong>Sở thích:</strong> Uống sữa tươi trân châu đường đen; Chill 🍁; tám chuyện; học tập; cùng nhau lên kế hoạch để phát triển bản thân, .... </p>
+            <p><strong>Không thích:</strong> Dỡn nhây; Ăn Cháo; ......  </p>
+        </div>
+        <div class="avatar">
+            <img src="chocon.png" alt="Hình ảnh bản thân">
+        </div>
+    </div>
+</body>
+</html>
